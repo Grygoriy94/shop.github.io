@@ -68,36 +68,28 @@ header {
 .logo_name_container {
     height: 100px;
     width: auto;
+    display: flex;
 }
 .logo {
     width: 59px;
     height: 69px;
-    margin-top: 29px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 15px;
 }
 .logo_name_1 {
-    position: relative;
-    bottom: 32px;
     color: #00923f;
     font-family: "Open sans";
     font-weight: 400;
-    height: auto;
     font-size: 40px;
-}
-.logo_name_2 {
-    position: relative;
-    left: -225px;
-    bottom: 6px;
-    font-size: 20px;
-    color: rgb(34, 34, 34);
-    font-family: "Open sans";
-    font-weight: 400;
-    width: auto;
+    line-height: 20px;
+
 }
 .background_container {
     background-color: #f1f1f1;
     width: 100%;
+    height: 64px;
+    display: block;
 }
 .filter_container {
     height: 64px;
@@ -299,5 +291,6 @@ hr {
     vertical-align: middle;
 
 }
+
 
 
